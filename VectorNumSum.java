@@ -1,0 +1,26 @@
+package OOPSC26CS070;
+
+import java.util.Vector;
+
+public class VectorNumSum
+{
+    public static void main(String[] args)
+    {
+        Vector<Integer> numbers = new Vector<Integer>();
+
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
+        numbers.add(50);
+
+        int sum = 0;
+
+        for(int n : numbers)
+        {
+            sum = sum + n;
+        }
+
+        System.out.println("Sum = " + sum);
+    }
+}
